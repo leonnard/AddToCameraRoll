@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		35B482641AE8C9D7001DB689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B482631AE8C9D7001DB689 /* main.m */; };
 		35B482671AE8C9D8001DB689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B482661AE8C9D8001DB689 /* AppDelegate.m */; };
-		35B4826A1AE8C9D8001DB689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B482691AE8C9D8001DB689 /* ViewController.m */; };
+		35B4826A1AE8C9D8001DB689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B482691AE8C9D8001DB689 /* ViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		35B4826D1AE8C9D8001DB689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B4826B1AE8C9D8001DB689 /* Main.storyboard */; };
 		35B4826F1AE8C9D8001DB689 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B4826E1AE8C9D8001DB689 /* Images.xcassets */; };
 		35B482721AE8C9D8001DB689 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35B482701AE8C9D8001DB689 /* LaunchScreen.xib */; };
 		35B4827E1AE8C9D8001DB689 /* AddToCameraRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B4827D1AE8C9D8001DB689 /* AddToCameraRollTests.m */; };
+		35B482881AE8CA11001DB689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B482871AE8CA11001DB689 /* UIKit.framework */; };
+		35B4828A1AE8CA1C001DB689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B482891AE8CA1C001DB689 /* Foundation.framework */; };
+		35B4828C1AE8CA27001DB689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B4828B1AE8CA27001DB689 /* CoreGraphics.framework */; };
+		35B4828F1AE8CA70001DB689 /* SvSaveToUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B4828E1AE8CA70001DB689 /* SvSaveToUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		35B482771AE8C9D8001DB689 /* AddToCameraRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddToCameraRollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B4827C1AE8C9D8001DB689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B4827D1AE8C9D8001DB689 /* AddToCameraRollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToCameraRollTests.m; sourceTree = "<group>"; };
+		35B482871AE8CA11001DB689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35B482891AE8CA1C001DB689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35B4828B1AE8CA27001DB689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35B4828D1AE8CA70001DB689 /* SvSaveToUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvSaveToUtils.h; sourceTree = "<group>"; };
+		35B4828E1AE8CA70001DB689 /* SvSaveToUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvSaveToUtils.m; sourceTree = "<group>"; };
+		35B482901AE8CC4C001DB689 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B4828C1AE8CA27001DB689 /* CoreGraphics.framework in Frameworks */,
+				35B4828A1AE8CA1C001DB689 /* Foundation.framework in Frameworks */,
+				35B482881AE8CA11001DB689 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,9 @@
 		35B482551AE8C9D7001DB689 = {
 			isa = PBXGroup;
 			children = (
+				35B4828B1AE8CA27001DB689 /* CoreGraphics.framework */,
+				35B482891AE8CA1C001DB689 /* Foundation.framework */,
+				35B482871AE8CA11001DB689 /* UIKit.framework */,
 				35B482601AE8C9D7001DB689 /* AddToCameraRoll */,
 				35B4827A1AE8C9D8001DB689 /* AddToCameraRollTests */,
 				35B4825F1AE8C9D7001DB689 /* Products */,
@@ -88,6 +104,8 @@
 				35B4826B1AE8C9D8001DB689 /* Main.storyboard */,
 				35B4826E1AE8C9D8001DB689 /* Images.xcassets */,
 				35B482701AE8C9D8001DB689 /* LaunchScreen.xib */,
+				35B4828D1AE8CA70001DB689 /* SvSaveToUtils.h */,
+				35B4828E1AE8CA70001DB689 /* SvSaveToUtils.m */,
 				35B482611AE8C9D7001DB689 /* Supporting Files */,
 			);
 			path = AddToCameraRoll;
@@ -97,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				35B482621AE8C9D7001DB689 /* Info.plist */,
+				35B482901AE8CC4C001DB689 /* PrefixHeader.pch */,
 				35B482631AE8C9D7001DB689 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -220,6 +239,7 @@
 			files = (
 				35B4826A1AE8C9D8001DB689 /* ViewController.m in Sources */,
 				35B482671AE8C9D8001DB689 /* AppDelegate.m in Sources */,
+				35B4828F1AE8CA70001DB689 /* SvSaveToUtils.m in Sources */,
 				35B482641AE8C9D7001DB689 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,8 +366,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AddToCameraRoll/PrefixHeader.pch";
 				INFOPLIST_FILE = AddToCameraRoll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -356,8 +379,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AddToCameraRoll/PrefixHeader.pch";
 				INFOPLIST_FILE = AddToCameraRoll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

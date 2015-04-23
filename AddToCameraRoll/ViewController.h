@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "SvSaveToUtils.h"
+@interface ViewController : UIViewController <SvSaveToDelegate>
 
 
 @end
