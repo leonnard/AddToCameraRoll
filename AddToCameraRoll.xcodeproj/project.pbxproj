@@ -13,7 +13,6 @@
 		35B4826D1AE8C9D8001DB689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B4826B1AE8C9D8001DB689 /* Main.storyboard */; };
 		35B4826F1AE8C9D8001DB689 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B4826E1AE8C9D8001DB689 /* Images.xcassets */; };
 		35B482721AE8C9D8001DB689 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35B482701AE8C9D8001DB689 /* LaunchScreen.xib */; };
-		35B4827E1AE8C9D8001DB689 /* AddToCameraRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B4827D1AE8C9D8001DB689 /* AddToCameraRollTests.m */; };
 		35B482881AE8CA11001DB689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B482871AE8CA11001DB689 /* UIKit.framework */; };
 		35B4828A1AE8CA1C001DB689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B482891AE8CA1C001DB689 /* Foundation.framework */; };
 		35B4828C1AE8CA27001DB689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B4828B1AE8CA27001DB689 /* CoreGraphics.framework */; };
@@ -42,8 +41,6 @@
 		35B4826E1AE8C9D8001DB689 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		35B482711AE8C9D8001DB689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		35B482771AE8C9D8001DB689 /* AddToCameraRollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddToCameraRollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		35B4827C1AE8C9D8001DB689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35B4827D1AE8C9D8001DB689 /* AddToCameraRollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToCameraRollTests.m; sourceTree = "<group>"; };
 		35B482871AE8CA11001DB689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35B482891AE8CA1C001DB689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35B4828B1AE8CA27001DB689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,7 +85,6 @@
 			children = (
 				356269D91B44E111003DBC03 /* Frameworks */,
 				35B482601AE8C9D7001DB689 /* AddToCameraRoll */,
-				35B4827A1AE8C9D8001DB689 /* AddToCameraRollTests */,
 				35B4825F1AE8C9D7001DB689 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,23 +121,6 @@
 				35B482621AE8C9D7001DB689 /* Info.plist */,
 				35B482901AE8CC4C001DB689 /* PrefixHeader.pch */,
 				35B482631AE8C9D7001DB689 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		35B4827A1AE8C9D8001DB689 /* AddToCameraRollTests */ = {
-			isa = PBXGroup;
-			children = (
-				35B4827D1AE8C9D8001DB689 /* AddToCameraRollTests.m */,
-				35B4827B1AE8C9D8001DB689 /* Supporting Files */,
-			);
-			path = AddToCameraRollTests;
-			sourceTree = "<group>";
-		};
-		35B4827B1AE8C9D8001DB689 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				35B4827C1AE8C9D8001DB689 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -256,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B4827E1AE8C9D8001DB689 /* AddToCameraRollTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
