@@ -73,12 +73,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35B482551AE8C9D7001DB689 = {
+		356269D91B44E111003DBC03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				35B4828B1AE8CA27001DB689 /* CoreGraphics.framework */,
 				35B482891AE8CA1C001DB689 /* Foundation.framework */,
 				35B482871AE8CA11001DB689 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35B482551AE8C9D7001DB689 = {
+			isa = PBXGroup;
+			children = (
+				356269D91B44E111003DBC03 /* Frameworks */,
 				35B482601AE8C9D7001DB689 /* AddToCameraRoll */,
 				35B4827A1AE8C9D8001DB689 /* AddToCameraRollTests */,
 				35B4825F1AE8C9D7001DB689 /* Products */,
@@ -441,6 +449,7 @@
 				35B482831AE8C9D8001DB689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35B482841AE8C9D8001DB689 /* Build configuration list for PBXNativeTarget "AddToCameraRollTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +458,7 @@
 				35B482861AE8C9D8001DB689 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
