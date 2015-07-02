@@ -78,7 +78,7 @@
 {
     // disabled copy btn until the copy action finished
     _btn.enabled = NO;
-    
+    NSLog(@"copyToSys");
     SvSaveToUtils *util = [[[SvSaveToUtils alloc] init] autorelease];
     util.delegate = self;
     [util saveMediaToCameraRoll];
